@@ -1,0 +1,107 @@
+/* large view */
+@media screen and (max-width: 1140px){
+    .container__big-card{
+        margin: auto;
+        width: 600px;
+        height: 400px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .big-card__pictures > img{
+        width: 100%;
+        margin-top: 10px;
+        margin: auto;
+    }
+    .big-card__title > h1 {
+        max-width: 100%;
+        margin-top: 15px;
+        font-size: 2em;
+    }
+
+    .big-card__description{
+        margin: auto;
+        font-size: 1.2em;
+        max-width: 100%;
+        margin-top: 10px ;
+    }
+    .big-card__description > p > a{
+        margin-top: 10px;
+        color: grey;
+    }
+
+}
+/* Medium view */
+@media screen and (max-width: 600px){
+    .container__big-card{
+       margin: auto;
+        width: 400px;
+        height: 450px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .big-card__pictures > img{
+        width: 100%;
+        margin-top: 10px;
+        margin: auto;
+    }
+    .big-card__title > h1 {
+        max-width: 100%;
+        margin-top: 15px;
+        font-size: 2em;
+    }
+
+    .big-card__description{
+        margin: auto;
+        font-size: 1.2em;
+        max-width: 100%;
+        margin-top: 10px ;
+    }
+    .big-card__description > p > a{
+        margin-top: 10px;
+        color: grey;
+    }
+
+}
+/* Small View */
+@media screen and (max-width: 400px){
+    .container__big-card{
+       margin: auto;
+        width: 400px;
+        height: 350px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .big-card__pictures > img{
+        width: 100%;
+        margin-top: 10px;
+        margin: auto;
+    }
+    .big-card__title > h1 {
+        max-width: 100%;
+        margin-left: 20px;
+        margin-top: 15px;
+        font-size: 1.2em;
+    }
+
+    .big-card__description{
+        margin: auto;
+        margin-left: 20px;
+        font-size: 0.8em;
+        max-width: 100%;
+        margin-top: 10px ;
+    }
+    .big-card__description > p > a{
+        margin-top: 10px;
+        color: grey;
+    }
+
+}
