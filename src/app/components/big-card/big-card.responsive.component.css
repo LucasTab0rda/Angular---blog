@@ -1,9 +1,9 @@
 /* large view */
-@media screen and (max-width: 1140px){
+@media screen and (min-width:620px){
     .container__big-card{
         margin: auto;
         width: 600px;
-        height: 400px;
+        height: 60%;
         display: flex;
         align-items: flex-start;
         flex-direction: column;
@@ -22,10 +22,10 @@
     }
 
     .big-card__description{
-        margin: auto;
         font-size: 1.2em;
         max-width: 100%;
         margin-top: 10px ;
+        margin-bottom: 25px;
     }
     .big-card__description > p > a{
         margin-top: 10px;

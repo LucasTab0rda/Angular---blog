@@ -1,7 +1,13 @@
+<i class="fa-brands fa-linkedin"></i>
 <div class="container__menu-bar">
     <ul>
-        <li><a href="https://www.linkedin.com/in/lucas-taborda-212a03225/" target="_blank">Linkedin</a></li>
-        <li><a href="https://github.com/LucasTab0rda" target="_blank">GitHub</a></li>
-        <li><a href="">Youtube</a></li>
+        <!-- home -->
+        <li><a [routerLink]="['']"><fa-icon [icon] = "faHouse" fa-2xsm></fa-icon> Home </a></li>
+        <!-- News         -->
+        <li><a [routerLink]="['content/:id']"> <fa-icon [icon] = "faNewspaper"></fa-icon> Noticias</a></li>
+        <!-- LinkTree -->
+        <li><a href="https://linktr.ee/lucastab0rda" target="_blank"> <fa-icon [icon]="faTree"></fa-icon> LinkTree</a></li>
     </ul>
 </div>
+
+

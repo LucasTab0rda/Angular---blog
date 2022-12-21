@@ -7,11 +7,13 @@ import { Component, Input} from '@angular/core';
 })
 export class BigCardComponent {
   @Input()
-  photoCover:string= ""
+  photoCover:string = ""
   @Input()
-  cardTitle:string="Nova versão de Thor em 'God Of War' é revelada"
+  cardTitle:string = ""
   @Input()
-  cardDescription="Agora sim, Thor tem sua aparência revelada em 'God of War' sequência produzida pelo estudio Santa Mônica"
+  cardDescription = ""
+  @Input()
+  id:string = "0"
 
   constructor(){
 

@@ -7,9 +7,11 @@ import { Component, Input } from '@angular/core';
 })
 export class SmallCardComponent {
   @Input()
-  photoCover:string ="https://thelastofus.com.br/wp-content/uploads/2022/07/Voz-de-Joel-em-The-Last-of-Us-no-Brasil-Luiz-Carlos-Persy-esta-oferecendo-curso-de-dublagem-1024x577.jpg"
+  photoCover:string =""
   @Input()
   cardTitle:string="Teste 123"
+  @Input()
+  id:string= "0"
   constructor (){
 
   }

@@ -3,7 +3,7 @@
         color: white;
     }
     .menu__title__container > h1{
-        font-size: 80px;
+        font-size: 2em;
         min-width: 100%;
         margin-top: 15px ;
         font-weight: bolder;
@@ -18,5 +18,28 @@
         margin-top: 20px;
         margin-bottom: 5px;
     }
+
+}
+
+@media screen and (max-width:1140px) {
+  .menu__title__container{
+      color: white;
+  }
+  .menu__title__container > h1{
+      font-size: 3em;
+      min-width: 100%;
+      margin-top: 15px ;
+      font-weight: bolder;
+      font-family: 'segoe UI';
+      margin-bottom: 15px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .menu__title__container > hr{
+      min-width: 150%;
+      margin-top: 20px;
+      margin-bottom: 5px;
+  }
 
 }
