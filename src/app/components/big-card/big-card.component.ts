@@ -13,7 +13,7 @@ export class BigCardComponent {
   @Input()
   cardDescription = ""
   @Input()
-  id:string = "0"
+  Id:string = "0"
 
   constructor(){
 

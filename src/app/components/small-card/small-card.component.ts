@@ -11,7 +11,7 @@ export class SmallCardComponent {
   @Input()
   cardTitle:string="Teste 123"
   @Input()
-  id:string= "0"
+  Id:string= "0"
   constructor (){
 
   }
