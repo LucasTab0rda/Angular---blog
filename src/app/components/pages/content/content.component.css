@@ -2,25 +2,27 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    border: 1px solid white;
     width: 100%;
     height: 100%;
 }
 
-.content__cover{
-    border: 1px solid grey;
+.content__title > h1 {
+  margin-bottom: 20px;
 }
 
+.content__cover{
+  margin-top: 15px
+}
 .content__cover > img{
     border: 5px solid rgba(82, 81, 81, 0.726);
-    width: 500px;
+    width: 100%;
     border-radius: 5px;
-    min-width: 500px;
-    height: 300px;
-}
+    height:250px ;
+  }
 
 .content__description > p {
     margin: auto;
+    text-align: justify;
     width: 50%;
     margin-top: 10px;
     color: rgba(190, 190, 190, 0.795);

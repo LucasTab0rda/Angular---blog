@@ -70,31 +70,36 @@
 }
 /* Small View */
 @media screen and (max-width: 400px){
-    .container__big-card{
+      .container__big-card{
        margin: auto;
-        width: 400px;
-        height: 350px;
+       width: 100%;
+       margin-left: 15px;
+       height: 350px;
         display: flex;
         align-items: flex-start;
         flex-direction: column;
         justify-content: flex-start;
     }
 
+    .big-card__pictures {
+      margin-left: 2%;
+    }
+
     .big-card__pictures > img{
         width: 100%;
         margin-top: 10px;
-        margin: auto;
     }
     .big-card__title > h1 {
         max-width: 100%;
-        margin-left: 20px;
+        margin-left: 5px;
+        margin-right: 10px;
         margin-top: 15px;
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     .big-card__description{
         margin: auto;
-        margin-left: 20px;
+        margin-left: 5px;
         font-size: 0.8em;
         max-width: 100%;
         margin-top: 10px ;

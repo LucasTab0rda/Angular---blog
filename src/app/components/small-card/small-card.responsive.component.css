@@ -1,3 +1,4 @@
+/* Medium view */
 @media screen and (max-width:600px) {
     .container__small-card{
         width: 100%;
@@ -25,6 +26,7 @@
 
 }
 
+/* Min view */
 @media screen and (max-width:400px) {
     .container__small-card{
         width: 100%;
@@ -48,6 +50,7 @@
     .container__small-card__separator{
         margin-top: 10px;
     }
+
 
 }
 

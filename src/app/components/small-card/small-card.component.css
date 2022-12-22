@@ -4,14 +4,14 @@
 }
 .container__small-card-content{
     display: flex;
-    border-radius: 50px;
     flex-direction: row;
 }
 .small-card__picture > img{
     width: 200px;
     min-width: 200px;
     margin-right: 20px;
-}
+    border-radius: 5px;
+  }
 
 .small-card__title{
     display: flex;
